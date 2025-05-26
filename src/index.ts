@@ -35,6 +35,7 @@ const direction = Direction.Left;
 // Type Assertions
 const productName: any = "Boné";
 
-let itemId: string;
+// let itemId = productName as string;
+let itemId = <string>productName;
 
 console.log(direction);
